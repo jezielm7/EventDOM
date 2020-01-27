@@ -7,6 +7,7 @@ function over() {
   boxElement2.style.color = '#fff';
   boxElement2.style.width = '300px';
   boxElement2.style.height = '300px';
+  boxElement2.style.cursor = 'pointer';
   boxElement2.style.background = '#04D301';
   boxElement2.innerText = 'Go Stack';
   boxElement2.style.fontSize = '50px';
@@ -22,6 +23,7 @@ function click() {
   var boxElement3 = document.getElementById('box')
   boxElement3.style.width = '300px';
   boxElement3.style.height = '300px';
+  boxElement3.style.cursor = 'pointer';
   boxElement3.style.background = '#FD951F';
   boxElement3.innerText = 'Launch Base';
   boxElement3.style.fontSize = '47px';
